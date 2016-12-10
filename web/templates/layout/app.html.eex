@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <nav class="light-blue">
+    <nav class="light-green lighten-2">
       <div class="nav-wrapper container">
         <a href="/" class="brand-logo">
           Discussions
