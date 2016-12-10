@@ -1,0 +1,5 @@
+use Mix.Config
+
+config :ueberauth, Ueberauth.Strategy.Github.OAuth,
+  client_id: "CLIENT_DI",
+  client_secret: "CLIENT_SECRET"
