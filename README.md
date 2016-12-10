@@ -1,7 +1,5 @@
 # Discuss
 
-[Learn Notes](./learn_notes.md)
-
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
