@@ -1,1 +1,5 @@
-<%= @topic.title %>
+<div class="">
+  <%= @topic.title %>
+</div>
+
+<button class="btn btn-success">Let's Go</button>
