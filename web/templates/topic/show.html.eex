@@ -2,4 +2,8 @@
   <%= @topic.title %>
 </div>
 
-<button class="btn btn-success">Let's Go</button>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded",() => {
+    window.createSocket(<%= @topic.id %>)
+  })
+</script>
