@@ -1,6 +1,11 @@
 <div class="">
   <%= @topic.title %>
 </div>
+<div class="input-field">
+  <textarea class="materialize-textarea"></textarea>
+  <button class="btn">Comment</button>
+</div>
+
 
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded",() => {

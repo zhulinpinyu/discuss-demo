@@ -59,6 +59,11 @@ const createSocket = (topicId) => {
   channel.join()
     .receive("ok", res => console.log("Joined successfully", res))
     .receive("error", res => console.log("Unable to join", res))
+
+  document.querySelector("button").addEventListener('click', () => {
+    const content = document.querySelector('textarea').value
+    channel.push("comments:add",{content})
+  })
 }
 
 window.createSocket = createSocket
